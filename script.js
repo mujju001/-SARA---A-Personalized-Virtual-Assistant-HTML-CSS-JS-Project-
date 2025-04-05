@@ -51,7 +51,10 @@ function takeCommand(message) {
         speak("Hello, Sir/ma'am. What can I do for you?");
     } 
     else if (message.includes("who are you")) {
-        speak("I am Sophisticated AI-Powered Responsive Assistant, a Virtual Assistant designed by Lucifer Morningstar. But you can call me SARA.");
+        speak("I am Sophisticated AI-Powered Responsive Assistant, a Virtual Assistant designed by Shaikh. But you can call me SARA.");
+    } 
+        else if (message.includes("what are you")) {
+        speak("I am SARA an AI.");
     } 
     else if (message.includes("open youtube")) {
         speak("Opening YouTube");
